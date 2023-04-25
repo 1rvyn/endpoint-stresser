@@ -12,9 +12,9 @@ import (
 
 const (
 	numRequestsPerSecond = 10
+	numRequests          = 100
 	totalRequests        = numRequestsPerSecond * 60
 	url                  = "https://api.irvyn.xyz/register"
-	numRequests          = 100
 )
 
 func main() {
